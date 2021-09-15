@@ -11,4 +11,4 @@ art = Category.create(name: "Art")
 tech = Category.create(name: "Tech")
 science = Category.create(name: "Science")
 
-Syllabus.create(title:"My ass", description:"Wide and round.", image_url: "https://daphnechicagodotcom.files.wordpress.com/2020/11/kingcobra-jack.jpg?w=1280", category_id: art_id)
+Syllabus.create(title:"My ass", description:"Wide and round.", image_url: "https://daphnechicagodotcom.files.wordpress.com/2020/11/kingcobra-jack.jpg?w=1280", category_id: art.id)
